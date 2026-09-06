@@ -6,15 +6,15 @@ This public repository is a checkpoint-scoped, disposable proof harness for the 
 
 - Application: `Pacchifans69/LinguaGraph`
 - Branch: `m2-linguistic-segmentation-foundation`
-- Candidate SHA: `f367f53f0c0de1dcef1f46f62cefbe4fc911d207`
-- Candidate tree: `aeddeac9067a710b1c0e473a1c4878f49a3ee79d`
+- Candidate SHA: `7cf756694e429abc50bf604ab2757fb3e44959c6`
+- Candidate tree: `cbdd9e77407a6bd853a4856ca7a927da679d3ed3`
 - Frozen M2 contract/base: `59e39ac436d8b1e3b4a29992b80fe72f3be2b13f`
 
 The harness fails closed unless the remote branch, detached checkout, commit tree, proof repository, proof branch, and proof commit all match the recorded values.
 
 ## Authority and boundary
 
-A Human approved an M2-specific External Infrastructure Exception after the exact candidate's canonical GitHub Actions run #47 failed before any workflow step started. The exception waives only successful proof on a GitHub-hosted runner.
+A Human approved an M2-specific External Infrastructure Exception after the canonical GitHub Actions provider repeatedly failed before any workflow step started, and explicitly authorized repinning this harness to the HRA-fix candidate above. The exception waives only successful proof on a GitHub-hosted runner.
 
 It does not waive exact provenance, clean hosted Linux execution, Python 3.13, Node 24, PostgreSQL 18, frozen dependencies, Alembic empty-to-`0003` verification, full real-PostgreSQL backend tests with zero skips, frontend lint/typecheck/Vitest/build, Playwright golden path, Unicode blocker, M2 segmentation behavior, cleanup, final tracked-tree integrity, or retained evidence.
 
