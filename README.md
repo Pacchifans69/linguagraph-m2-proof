@@ -6,8 +6,8 @@ This public repository is a checkpoint-scoped, disposable proof harness for the 
 
 - Application: `Pacchifans69/LinguaGraph`
 - Branch: `m2-linguistic-segmentation-foundation`
-- Candidate SHA: `937c984bb6d58fe03ef5cb8d83a52bb4934f94c7`
-- Candidate tree: `7d12b86ef6870fe46dc89ad4247244e2c18f810d`
+- Candidate SHA: `b1e0950e413351a066bbee1a1a34d2a065f87e32`
+- Candidate tree: `a2f15bbbf6125a2c61543b6b713b1dc08c270124`
 - Frozen M2 contract/base: `59e39ac436d8b1e3b4a29992b80fe72f3be2b13f`
 
 The harness fails closed unless the remote branch, detached checkout, commit tree, proof repository, proof branch, and proof commit all match the recorded values.
